@@ -25,18 +25,18 @@ public class CalculatorTest {
     }
 
     @Test
-    public void given_two_integers_when_substraction_then_ok(){
+    public void given_two_integers_when_subtraction_then_ok(){
         System.out.println("Test 2");
-        assertEquals( 7, c.addition(10,3));
+        assertEquals( 7, c.subtraction(10,3));
     }
 
     @Test(expected = ArithmeticException.class)
     public void given_two_integers_when_division_then_ok(){
         System.out.println("Test 3");
-        assertEquals( 1, c.addition(1,0), 0);
+        assertEquals( 1, c.division(1,0), 0);
     }
 
-    @Test(expected = ArithmeticException.class)
+    @Test
     public void given_a_time_when_timeout_then_exception(){
         System.out.println("Test 4");
         c.timeout(100);
