@@ -1,14 +1,12 @@
 package ec.edu.epn.git.calculator;
 
 public class Calculator {
-    private int answer;
-
+    private int answers;
     public int addition(int a, int b){
         return a + b;
     }
     public int subtraction(int a, int b){
         return a - b;
-
     }
     @SuppressWarnings("IntegerDivisionInFloatingPointContext")
     public double division(int a, int b){
@@ -21,10 +19,10 @@ public class Calculator {
             e.printStackTrace();
         }
     }
-    public int getAnswer(){
-        return answer;
+    public int getAnswers(){
+        return answers;
     }
-    public void setAnswer(int answer){
-        this.answer = answer;
+    public void setAnswers(int answers){
+        this.answers = answers;
     }
 }

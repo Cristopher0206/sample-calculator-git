@@ -45,7 +45,7 @@ public class CalculatorTest {
     @After
     public void tearDown(){
         System.out.println("tearDown()");
-        c.setAnswer(0);
+        c.setAnswers(0);
     }
 
     @AfterClass
