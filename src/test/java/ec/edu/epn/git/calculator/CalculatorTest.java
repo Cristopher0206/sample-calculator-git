@@ -27,7 +27,7 @@ public class CalculatorTest {
     @Test
     public void given_two_integers_when_subtraction_then_ok(){
         System.out.println("Test 2");
-        assertEquals( 7, c.subtraction(10,3));
+        assertEquals( 8, c.subtraction(10,4));
     }
 
     @Test(expected = ArithmeticException.class)
